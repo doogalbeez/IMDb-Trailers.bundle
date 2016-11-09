@@ -2,8 +2,8 @@ import re
  
 PLUGIN_PREFIX = "/video/IMDBTrailers"
 
-TRAILERS     = "http://www.imdb.com/features/video/trailers"
-CONTENT_URL  = "http://www.imdb.com/video/trailers/data/_ajax/adapter/shoveler?list=%s&caller_name=ava_video_trailers"
+TRAILERS     = "http://www.imdb.com/trailers"
+CONTENT_URL  = "http://www.imdb.com/trailers/data/_ajax/adapter/shoveler?list=%s&caller_name=ava_video_trailers"
 DETAILS_PAGE = "http://www.imdb.com/video/imdb/%s/html5"
 
 HEADERS = {"referer":"http://www.imdb.com/trailers"}
